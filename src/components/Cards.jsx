@@ -1,8 +1,11 @@
+import { motion } from 'framer-motion'
 import React from 'react'
 
 function Cards() {
+
   return (
-    <div className='w-full h-screen bg-zinc-100 flex items-center gap-5'>
+    <div  className='w-full h-screen overflow-hidden'>
+      <div data-scroll data-scroll-section data-scroll-speed="-.7" className='w-full h-screen bg-zinc-100 flex items-center gap-5'>
         {/* <div className='border-[1px] border-white mt-20'></div> */}
       <div className="cardcontainer w-1/2 h-[50vh] ml-8">
         <div className='card relative w-full h-full bg-[#004d43] rounded-xl flex items-center justify-center'>
@@ -20,6 +23,7 @@ function Cards() {
         <button className='absolute border-2 uppercase rounded-full px-8  text-[12px] py-1 left-6 bottom-8 font-light border-zinc-300 tracking-tighter'>bussiness bootcamp <br /> alumini</button>
       </div>
       </div>
+    </div>
     </div>
   )
 }

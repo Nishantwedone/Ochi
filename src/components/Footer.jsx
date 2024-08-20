@@ -1,7 +1,10 @@
+import { motion } from "framer-motion";
 import React from "react";
 
 function Footer() {
+
   return (
+    <div>
     <div className="w-full h-screen flex gap-10 bg-zinc-300">
       <div className="w-1/2 h-full p-20 flex flex-col justify-between">
         <div className="heading">
@@ -100,6 +103,7 @@ function Footer() {
           </div>
         </div>
       </div>
+    </div>
     </div>
   );
 }

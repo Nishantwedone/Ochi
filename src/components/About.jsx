@@ -4,7 +4,6 @@ function About() {
   return (
     <div className="w-full py-16  bg-[#cdea68] rounded-tl-3xl rounded-none≠tr-3xl text-black">
       <h1 className='px-20 font-["Neue Montreal"] text-[4vw] leading-[4.5vw] tracking-tight'>
-        {" "}
         Ochi is a strategic presentation agency for forward-thinking businesses
         that need to raise funds, sell products, explain complex ideas, and hire
         great people.

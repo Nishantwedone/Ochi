@@ -8,6 +8,7 @@ import Featured from './components/Featured'
 import Cards from './components/Cards'
 import Footer from './components/Footer'
 import LocomotiveScroll from 'locomotive-scroll';
+import Review from './components/Review'
 
 function App() {
 
@@ -21,6 +22,7 @@ const locomotiveScroll = new LocomotiveScroll();
       <About />
       <Eyes />
       <Featured />
+      <Review />
       <Cards />
       <Footer />
     </div>
