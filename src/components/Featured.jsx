@@ -44,9 +44,10 @@ function Featured() {
         />
       </div>
                         {/* bottom  */}
-      <button className="px-8 py-4 mt-24 ml-[39vw] bg-zinc-100 rounded-full uppercase text-black flex gap-10 items-center">
+      <button className="px-8 py-4 mt-24 ml-[39vw] bg-zinc-100 rounded-full uppercase text-black flex gap-10 items-center
+      hover:bg-zinc-800 hover:text-white hover:border-[1px] border-white">
         view all case studies
-        <div className="w-2 h-2 bg-zinc-900 rounded-full"></div>
+        <div className="w-2 h-2 bg-zinc-900 rounded-full hover:bg-zinc-100"></div>
       </button>
     </div>
   );

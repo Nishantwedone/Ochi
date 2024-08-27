@@ -84,25 +84,31 @@ function Fcard(props) {
         {/* bottom  */}
         <div className="bottom mt-16 flex justify-between items-center gap-20">
           <div className="leftcard flex gap-3 uppercase tracking-tighter leading-none w-1/2">
-            <h1 className="border-zinc-400 border-[1px] rounded-full px-2 py-1">
+            <h1 className="border-zinc-400 border-[1px] rounded-full px-2 py-1
+            hover:bg-zinc-100 hover:text-black">
               {props.left1}
             </h1>
-            <h1 className="border-zinc-400 border-[1px] rounded-full px-3 py-1">
+            <h1 className="border-zinc-400 border-[1px] rounded-full px-3 py-1
+            hover:bg-zinc-100 hover:text-black">
               {props.left2}
             </h1>
-            <h1 className="border-zinc-400 border-[1px] rounded-full px-3 py-1">
+            <h1 className="border-zinc-400 border-[1px] rounded-full px-3 py-1
+            hover:bg-zinc-100 hover:text-black">
               {props.left3}
             </h1>
-            <h1 className="border-zinc-400 border-[1px] rounded-full px-3 py-1">
+            <h1 className="border-zinc-400 border-[1px] rounded-full px-3 py-1
+            hover:bg-zinc-100 hover:text-black">
               {props.left4}
             </h1>
           </div>
 
           <div className="rightcard flex gap-3 uppercase tracking-tighter leading-none w-1/2">
-            <h1 className="border-zinc-400 border-[1px] rounded-full px-3 py-1">
+            <h1 className="border-zinc-400 border-[1px] rounded-full px-3 py-1
+            hover:bg-zinc-100 hover:text-black">
               {props.right1}
             </h1>
-            <h1 className="border-zinc-400 border-[1px] rounded-full px-3 py-1">
+            <h1 className="border-zinc-400 border-[1px] rounded-full px-3 py-1
+            hover:bg-zinc-100 hover:text-black">
               {props.right2}
             </h1>
           </div>

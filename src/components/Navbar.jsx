@@ -13,10 +13,10 @@ function Navbar() {
 								</svg>
       </div>
 
-      <div className="links flex gap-10">
+      <div className="links flex gap-10 cursor-pointer">
         {["Services", "Our Work", "About Us", "Insights","contacts"].map((item,index) =>(
                                     // ye is index===4 se 4 ke baad gap mil jayega hume
-            <a key={index} className={`text-lg capitalize font-light ${index===4 && "ml-32"}`}>{item}</a>
+            <a key={index} className={`text-lg capitalize font-light hover:border-b-[1px] py-0.6 border-zinc-400 ease-out delay-75 duration-150 ${index===4 && "ml-32"}`}>{item}</a>
         ))}
       </div>
     </div>

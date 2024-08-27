@@ -19,7 +19,7 @@ function Review() {
             <a
               href="#"
               key={index}
-              className={`text-md capitalize font-light ${
+              className={`text-md capitalize font-light hover:border-b-[1px] py-0.6 border-zinc-500 ease-out delay-75 duration-150 ${
                 index === 3 && "ml-48"
               }`}
             >
@@ -30,11 +30,13 @@ function Review() {
       </div>
 
       <div className="w-full h-1/2 flex gap-10">
-        <div className="w-1/2">
-          <h1 className="border-zinc-400 ml-[30vw] mt-16 font-light uppercase w-[11vw] mb-[1vh] border-[1px] rounded-full px-2 py-1">
+        <div className="w-1/2 ">
+          <h1 className="border-zinc-400 ml-[30vw] mt-16 font-light uppercase w-[11vw] mb-[1vh] border-[1px] rounded-full px-2 py-1
+           hover:bg-zinc-800 hover:text-white">
             investor deck
           </h1>
-          <h1 className="border-zinc-400  ml-[30vw] font-light uppercase w-[9vw] border-[1px] rounded-full px-2 py-1">
+          <h1 className="border-zinc-400  ml-[30vw] font-light uppercase w-[9vw] border-[1px] rounded-full px-2 py-1
+          hover:bg-zinc-800 hover:text-white">
             sales deck
           </h1>
         </div>

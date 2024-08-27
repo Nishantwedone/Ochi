@@ -6,7 +6,7 @@ import { FaArrowUp } from "react-icons/fa6";
 function LandingPage() {
 
   return (
-    <div data-scroll data-scroll-section data-scroll-speed="-.3" className='w-full h-screen bg-zinc-900 pt-1'>
+    <div data-scroll data-scroll-section data-scroll-speed="-.3" className='home w-full h-screen bg-zinc-900 pt-1'>
         <div className='textstructure mt-52 px-20'>
             {["we create","eye-opening","presentations"].map((item,index) =>{
                 return (
@@ -34,9 +34,9 @@ function LandingPage() {
                 <p className='text-md font-light tracking-tight leading-none '>{item}</p>
             ))}
             <div className="start flex items-center gap-5">
-                    <div className='py-2 px-5 border-[1px] border-zinc-400 rounded-full font-light text-sm uppercase '>start the project
+                    <div className='py-2 px-5 border-[1px] border-zinc-400 rounded-full font-light text-sm uppercase hover:bg-zinc-100 hover:text-black '>start the project
                     </div>
-                    <div className='w-10 h-10 rounded-full border-[1px] border-zinc-400 flex items-center justify-center'>
+                    <div className='w-10 h-10 rounded-full border-[1px] border-zinc-400 flex items-center justify-center hover:bg-zinc-100 hover:text-black'>
                     <span className='rotate-[45deg]'>
                     <FaArrowUp />
                     </span>

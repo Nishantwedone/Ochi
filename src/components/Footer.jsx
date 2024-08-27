@@ -5,7 +5,7 @@ function Footer() {
 
   return (
     <div>
-    <div className="w-full h-screen flex gap-10 bg-zinc-300">
+    <div className="w-full h-screen flex gap-10 bg-zinc-100">
       <div className="w-1/2 h-full p-20 flex flex-col justify-between">
         <div className="heading">
           <h1 className='text-[6.5vw] uppercase leading-none text-black font-semibold tracking-tighter  font-["Founders Grotesk"]'>
@@ -51,7 +51,7 @@ function Footer() {
         </h1>
 
         <div className="text flex items-end justify-between">
-          <div className="mt-10">
+          <div className="mt-10 cursor-pointer">
             {["S:", "instagram", "behance", "facebook", "linkedin"].map(
               (item, index) => (
                 // ye is index===0 se 0 ke baad gap mil jayega hume
@@ -92,9 +92,11 @@ function Footer() {
             ))}
           </div>
 
-          <div className="mb-20 flex-col items-end justify-end ">
+          <div className="mb-20 flex-col items-end justify-end cursor-pointer">
             {["M:", "Home", "Services", "Our work", "About us", "Insights", "Contact us"].map((item, index) => (
-              <a key={index} className={`text-[1.1vw]g capitalize font-light block ${index === 0 && "mb-4"}`}>{item}</a>
+              <a key={index} href="<LandingPage/>" className={`text-[1.2vw] capitalize font-light block 
+                hover:border-b-[1px] py-0.6 border-zinc-500 ease-out delay-75 duration-150
+                 ${index === 0 && "mb-4"}`}>{item}</a>
             ))}
 
             {/* {["Website by Nishant"].map((item, index) => (

@@ -22,14 +22,12 @@ function About() {
             what makes your message clear, convincing, and captivating.
           </p>
         </div>
-        <div className="mr-16 font-light">
-          <p>
-            S:
-            <p>Instagram</p>
-            <p>Behance</p>
-            <p>Facebook</p>
-            <p>Linkedin</p>
-          </p>
+        <div className="mr-16 cursor-pointer font-light">
+            <p className="hover:border-b-[1px] py-0.6 border-zinc-500 ease-out delay-75 duration-150 w-1/2">S:</p>
+            <p className="hover:border-b-[1px] py-0.6 border-zinc-500 ease-out delay-75 duration-150">Instagram</p>
+            <p className="hover:border-b-[1px] py-0.6 border-zinc-500 ease-out delay-75 duration-150">Behance</p>
+            <p className="hover:border-b-[1px] py-0.6 border-zinc-500 ease-out delay-75 duration-150">Facebook</p>
+            <p className="hover:border-b-[1px] py-0.6 border-zinc-500 ease-out delay-75 duration-150">Linkedin</p>
         </div>
       </div>
 
